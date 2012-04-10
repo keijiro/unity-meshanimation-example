@@ -85,7 +85,6 @@ GameObject:
   - 33: {fileID: 674035587}
   - 23: {fileID: 674035586}
   - 114: {fileID: 674035588}
-  - 114: {fileID: 674035589}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -118,7 +117,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 4343b4194b5754c16852771ee831b364, type: 2}
+  - {fileID: 2100000, guid: 782314b0ead9c415a9ec8b0bcafd7c4d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -133,23 +132,6 @@ MeshFilter:
   m_GameObject: {fileID: 674035584}
   m_Mesh: {fileID: 4300000, guid: 3bccfea38e5e742e195ce1ff4cfa8e5d, type: 3}
 --- !u!114 &674035588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 674035584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f63bbb118c8f748c19b3f823118e0ff4, type: 1}
-  m_Name: 
-  waveParams:
-  - 6
-  - 2
-  - .119999997
-  - 12
-  - 10
-  - .0299999993
---- !u!114 &674035589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

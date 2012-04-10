@@ -3,10 +3,6 @@
 @script RequireComponent(MeshFilter)
 @script RequireComponent(MeshRenderer)
 
-function Awake() {
-    Application.targetFrameRate = 60.0;
-}
-
 var waveParams = [6.0, 2.0, 0.12, 12.0, 10.0, 0.03];
 
 function Update() {
